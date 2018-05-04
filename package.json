@@ -1,0 +1,30 @@
+{
+  "name": "movie-crud-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rscarlisle/movie-crud-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rscarlisle/movie-crud-backend/issues"
+  },
+  "homepage": "https://github.com/rscarlisle/movie-crud-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "knex": "^0.14.4",
+    "morgan": "^1.9.0",
+    "pg": "^7.4.1",
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {}
+}
